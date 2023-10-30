@@ -13,10 +13,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
+    <script src="js/audio.js"></script>
     <title>Galerie</title>
 </head>
 
-<body>
+<body onload="init()">
 
 
     <nav class="navbar navbar-expand-sm shadow-none p-3 mb-5 ">
@@ -39,37 +40,20 @@
                     <li class="nav-item ">
                         <a class="nav-link active " href="contact.html">nous contacter</a>
                     </li>
+                    <li class="nav-item ">
+                        <input id="searchbar" onkeyup="search()" type="text" name="search" placeholder="Rechercher..">
+                    </li>
                 </ul>
+                
             </div>
     </nav>
     <div class="container">
 
-        <div class="d-none d-md-block text-center mb-5">
-            <h1>Les films préférés des adhérents </h1>
-        </div>
+        
 
 
-        <div class="row ">
-            <div class="col-12 mb-5 col-sm-6 col-md-6 col-lg-6  col-xl-4  ">
-                <a href="pages films/EscapeFromNY.html"> <img id="imagesgaleries"
-                        src="films/220px-EscapefromNYposter.jpg"> </a>
-            </div>
-            <div class="col-12 mb-5 col-sm-6 col-md-6 col-lg-6  col-xl-4  ">
-                <a href="pages films/GhostInTheShell.html"> <img id="imagesgaleries"
-                        src="films/Ghost_in_the_shell.jpeg"> </a>
-            </div>
-            <div class="col-12 mb-5 col-sm-6 col-md-6 col-lg-6  col-xl-4  ">
-                <a href="pages films/gladiator.html"> <img id="imagesgaleries" src="films/gladiator.jpeg"> </a>
-            </div>
-            <div class="col-12 mb-5 col-sm-6 col-md-6 col-lg-6  col-xl-4  ">
-                <a href="pages films/intouchables.html"> <img id="imagesgaleries" src="films/intouchables.jpg"> </a>
-            </div>
-            <div class="col-12 mb-5 col-sm-6 col-md-6 col-lg-6  col-xl-4  ">
-                <a href="pages films/RJ.html"> <img id="imagesgaleries" src="films/RJ.jpeg"></a>
-            </div>
-            <div class="col-12 mb-5 col-sm-6 col-md-6 col-lg-6  col-xl-4  ">
-                <a href="pages films/vpourvendetta.html"> <img id="imagesgaleries" src="films/vpourvendetta.jpg"></a>
-            </div>
+        <div id="modo">
+           
         </div>
 
     </div>
@@ -77,7 +61,7 @@
 
 
     <footer>
-        <p>Site réalisé par David.J – afpa 2023</p>
+        <p>Site réalisé par David.J - afpa 2023</p>
     </footer>
 
 
