@@ -6,7 +6,9 @@
 --color-main-Bleu:#7587BF;
 }
 
-
+button{
+    margin: 5px;
+}
 nav h1 {
     font-family: 'Inconsolata', monospace;
     font-size: 20px;

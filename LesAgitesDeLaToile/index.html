@@ -13,10 +13,11 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
+  <script src="js/audio.js"></script>
   <title>Accueil</title>
 </head>
 
-<body>
+<body onload="init()">
 
   <nav class="navbar navbar-expand-sm shadow-none p-3 mb-5 ">
     <div class="container-fluid">
@@ -38,7 +39,9 @@
           <li class="nav-item ">
             <a class="nav-link active " href="./contact.html">nous contacter</a>
           </li>
-
+          <li class="nav-item ">
+           <input id="searchbar" onkeyup="search()" type="text" name="search" placeholder="Rechercher..">
+          </li>
         </ul>
 
       </div>
