@@ -43,14 +43,14 @@ function init() {
        if (trailerVideo) {
          const videoKey = trailerVideo.key;
          document.getElementById('modo').innerHTML += `
-           <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#Modale${index}">
-             <img src="https://www.themoviedb.org/t/p/w220_and_h330_face${data.results[index].poster_path}">
+           <button type="button" class="btn btn-warning btn-sm mb-4 ms-4" data-bs-toggle="modal" data-bs-target="#Modale${index}">
+             <img class="d-flex " src="https://www.themoviedb.org/t/p/w220_and_h330_face${data.results[index].poster_path}">
            </button>
 
            <div class="modal fade" id="Modale${index}" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
              <div class="modal-dialog ">
                <div class="modal-content">
-                 <div class="modal-header d-flex justify-content-center text-warning font-weight-bold">
+                 <div class="modal-header d-flex justify-content-center text-dark fs-1 text  fw-bold text-uppercase">
                    <h5 class="modal-title" id="ModalLabel">${data.results[index].title}</h5>
                  </div>
                 <div class=" d-flex justify-content-center mt-3 ">
@@ -58,8 +58,10 @@ function init() {
                 </div>
                  <div class="modal-body">
                    <p>${data.results[index].overview}</p>
-                   <hr class="text-secondary" >
-                   <iframe width="465" height="315" src="https://www.youtube.com/embed/${videoKey}" frameborder="0" allowfullscreen></iframe>
+                   <hr class="text-secondary " >
+                   </div>
+                  <div class= "modal-body d-flex justify-content-center h-100 mb-4 " id="Bande-annonce" >
+                   <iframe class="border border-2 border-warning"  src="https://www.youtube.com/embed/${videoKey}" frameborder="0" allowfullscreen></iframe>
                  </div>
                  <div class="modal-footer">
                    <button type="button" class="bouton-retour" data-bs-dismiss="modal">Retour</button>

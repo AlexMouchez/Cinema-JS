@@ -98,11 +98,6 @@ footer p {
 }
 
 
-
-
-
-
-
 .container h1 {
     font-family: 'Inconsolata', monospace;
 }
@@ -116,8 +111,6 @@ footer p {
     margin: 15px ;
   
 }
-
-
 
 
 
@@ -166,3 +159,35 @@ footer p {
 .bordure-img{
     border: solid 5px #FFCA2C;
 }
+
+/* .borderBandeAnnonce {
+    border: solid 5px #FFCA2C;
+} */
+
+#searchbar {
+    margin-top: 5px;
+    border-radius: 8px;
+    padding: 4px;
+}
+
+
+#tags {
+    margin:0;
+    display: flex;
+    justify-content: center;
+}
+
+
+ .tag{
+     color: rgb(10, 10, 10);
+    padding:10px 20px;
+    background-color: #FFCA2C;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-bottom: 40px;
+   display:flex;
+}
+
+
+
+    
