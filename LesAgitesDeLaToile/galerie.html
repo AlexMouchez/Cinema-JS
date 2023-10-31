@@ -12,8 +12,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@800&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <script type="text/javascript" src="scripts.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
+    <script src="scripts.js"></script>
     <title>Galerie</title>
 </head>
 
@@ -40,47 +40,38 @@
                     <li class="nav-item ">
                         <a class="nav-link active " href="contact.html">nous contacter</a>
                     </li>
+                    <li class="nav-item ">
+                        <input id="searchbar" onkeyup="search()" type="text" name="search" placeholder="Rechercher..">
+                    </li>
                 </ul>
+
             </div>
     </nav>
-    <!-- <div class="container">
+    <section class="row col-12">
+        <article class="col-3">
+            <div class="filter">
+                <h3>Genres</h3>
+                
+            </div>
+        </article>
 
-        <div class="d-none d-md-block text-center mb-5">
-            <h1>Les films préférés des adhérents </h1>
+        <div class="container col-9">
+
+
+
+
+            <div id="modo">
+
+            </div>
+
         </div>
+    </section>
 
 
-        <div class="row ">
-            <div class="col-12 mb-5 col-sm-6 col-md-6 col-lg-6  col-xl-4  ">
-                <a href="pages films/EscapeFromNY.html"> <img id="imagesgaleries"
-                        src="films/220px-EscapefromNYposter.jpg"> </a>
-            </div>
-            <div class="col-12 mb-5 col-sm-6 col-md-6 col-lg-6  col-xl-4  ">
-                <a href="pages films/GhostInTheShell.html"> <img id="imagesgaleries"
-                        src="films/Ghost_in_the_shell.jpeg"> </a>
-            </div>
-            <div class="col-12 mb-5 col-sm-6 col-md-6 col-lg-6  col-xl-4  ">
-                <a href="pages films/gladiator.html"> <img id="imagesgaleries" src="films/gladiator.jpeg"> </a>
-            </div>
-            <div class="col-12 mb-5 col-sm-6 col-md-6 col-lg-6  col-xl-4  ">
-                <a href="pages films/intouchables.html"> <img id="imagesgaleries" src="films/intouchables.jpg"> </a>
-            </div>
-            <div class="col-12 mb-5 col-sm-6 col-md-6 col-lg-6  col-xl-4  ">
-                <a href="pages films/RJ.html"> <img id="imagesgaleries" src="films/RJ.jpeg"></a>
-            </div>
-            <div class="col-12 mb-5 col-sm-6 col-md-6 col-lg-6  col-xl-4  ">
-                <a href="pages films/vpourvendetta.html"> <img id="imagesgaleries" src="films/vpourvendetta.jpg"></a>
-            </div>
-        </div>
 
-    </div> -->
-
-    <div id='cardz'>
-
-    </div>
 
     <footer>
-        <p>Site réalisé par David.J et Alexandre.M – afpa 2023</p>
+        <p>Site réalisé par David.J - afpa 2023</p>
     </footer>
 
 

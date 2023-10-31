@@ -112,7 +112,10 @@ footer p {
 }
 
 
-
+#bouton-contour-affiche {
+    margin: 15px ;
+  
+}
 
 
 
@@ -150,4 +153,16 @@ footer p {
 }
 
 
+}
+
+.bouton-retour {
+    background-color: #FFCA2C ;
+    border-radius: 5px;
+    border: solid 1px;
+    padding: 6px 9px 6px 9px;;
+}
+
+
+.bordure-img{
+    border: solid 5px #FFCA2C;
 }
