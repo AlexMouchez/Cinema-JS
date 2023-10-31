@@ -133,10 +133,11 @@ function genre(idGenre) {
     for (let r = 0; r < tabGenre.length; r++) {
       if (filmGenre.includes(tabGenre[r])) {
         shouldDisplay = true;
-        break;
+        
       }
       else{
         shouldDisplay = false;
+        break;
       }
     }
 
