@@ -52,69 +52,72 @@
 
 
     <!-- PARTIE BARRE DE TRI PAR GENRE :  -->
-    <section class="row col-12">
-        <article class="col-3">
+    <section class="row col-12 d-flex flex-nowrap ">
+        <article class="col-2 me-3">
             <div class="filter">
-                <h3>Genres</h3>
-                <dl >
-                    <dd ><input type="checkbox" id="28" name="action"  value="28"  onclick="genre(28)" />
+                <h3 class="ms-4 mb-4">Genres</h3>
+                <dl class="barre-genre">
+                    <div class="checkbox-genre ms-4 ">
+
+                    <dd class="mb-lg-3"><input type="checkbox" id="28" name="action"  value="28"  onclick="genre(28)" />
                         <label for="action">Action</label>
                     </dd>
-                    <dd ><input type="checkbox" id="16" name="animation" value="16" onclick="genre(16)" />
+                    <dd class="mb-lg-3"><input type="checkbox" id="16" name="animation" value="16" onclick="genre(16)" />
                         <label for="animation">Animation</label>
                     </dd>
-                    <dd ><input type="checkbox" id="12" name="aventure" value="12"onclick="genre(12)" />
+                    <dd class="mb-lg-3"><input type="checkbox" id="12" name="aventure" value="12"onclick="genre(12)" />
                         <label for="aventure">Aventure</label>
                     </dd>
-                    <dd > <input type="checkbox" id="35" name="comedie"  value="35" onclick="genre(35)"/>
+                    <dd class="mb-lg-3"> <input type="checkbox" id="35" name="comedie"  value="35" onclick="genre(35)"/>
                         <label for="comedie">Comédie</label>
                     </dd>
-                    <dd > <input type="checkbox" id="80" name="crime" value="80" onclick="genre(80)" />
+                    <dd class="mb-lg-3"> <input type="checkbox" id="80" name="crime" value="80" onclick="genre(80)" />
                         <label for="crime">Crime</label>
                     </dd>
-                    <dd > <input type="checkbox" id="99" name="documentaire" value="99"onclick="genre(99)" />
+                    <dd class="mb-lg-3"> <input type="checkbox" id="99" name="documentaire" value="99"onclick="genre(99)" />
                         <label for="documentaire">Documentaire</label>
                     </dd>
-                    <dd > <input type="checkbox" id="18" name="drame"  value="18" onclick="genre(18)" />
+                    <dd class="mb-lg-3"> <input type="checkbox" id="18" name="drame"  value="18" onclick="genre(18)" />
                         <label for="drame">Drame</label>
                     </dd>
-                    <dd > <input type="checkbox" id="10751" name="familial" value="10751" onclick="genre(10751)" />
+                    <dd class="mb-lg-3"> <input type="checkbox" id="10751" name="familial" value="10751" onclick="genre(10751)" />
                         <label for="familial">Familial</label>
                     </dd>
-                    <dd > <input type="checkbox" id="14" name="fantastique" value="14" onclick="genre(14)" />
+                    <dd class="mb-lg-3"> <input type="checkbox" id="14" name="fantastique" value="14" onclick="genre(14)" />
                         <label for="fantastique">Fantastique</label>
                     </dd>
-                    <dd > <input type="checkbox" id="10752" name="guerre" value="10752" onclick="genre(10752)" />
+                    <dd class="mb-lg-3"> <input type="checkbox" id="10752" name="guerre" value="10752" onclick="genre(10752)" />
                         <label for="guerre">Guerre</label>
                     </dd>
-                    <dd > <input type="checkbox" id="36" name="histoire" value="36"  onclick="genre(36)"/>
+                    <dd class="mb-lg-3"> <input type="checkbox" id="36" name="histoire" value="36"  onclick="genre(36)"/>
                         <label for="histoire">Histoire</label>
                     </dd>
-                    <dd > <input type="checkbox" id="27" name="horreur" value="27"  onclick="genre(27)"/>
+                    <dd class="mb-lg-3"> <input type="checkbox" id="27" name="horreur" value="27"  onclick="genre(27)"/>
                         <label for="horreur">Horreur</label>
                     </dd>
-                    <dd > <input type="checkbox" id="10402" name="musique"  value="10402" onclick="genre(10402)" />
+                    <dd class="mb-lg-3"> <input type="checkbox" id="10402" name="musique"  value="10402" onclick="genre(10402)" />
                         <label for="musique">Musique</label></input>
                     </dd>
-                    <dd > <input type="checkbox" id="9648" name="mystere"  value="9648" onclick="genre(9648)" />
+                    <dd class="mb-lg-3"> <input type="checkbox" id="9648" name="mystere"  value="9648" onclick="genre(9648)" />
                         <label for="mystere">Mystère</label>
                     </dd>
-                    <dd > <input type="checkbox" id="10749" name="romance"  value="10749" onclick="genre(10749)" />
+                    <dd class="mb-lg-3"> <input type="checkbox" id="10749" name="romance"  value="10749" onclick="genre(10749)" />
                         <label for="romance">Romance</label>
                     </dd>
-                    <dd > <input type="checkbox" id="878" name="sf"  value="878"  onclick="genre(878)"/>
+                    <dd class="mb-lg-3"> <input type="checkbox" id="878" name="sf"  value="878"  onclick="genre(878)"/>
                         <label for="sf">Science-Fiction</label>
                     </dd>
-                    <dd > <input type="checkbox" id="53" name="thriller" value="53" onclick="genre(53)" />
+                    <dd class="mb-lg-3"> <input type="checkbox" id="53" name="thriller" value="53" onclick="genre(53)" />
                         <label for="thriller">Thriller</label>
                     </dd>
-                    <dd > <input type="checkbox" id="10770" name="telefilm" value="10770" onclick="genre(10770)" />
+                    <dd class="mb-lg-3"> <input type="checkbox" id="10770" name="telefilm" value="10770" onclick="genre(10770)" />
                         <label for="telefilm">Téléfilm</label>
                     </dd>
-                    <dd > <input type="checkbox" id="37" name="western"  value="37" onclick="genre(37)" />
+                    <dd class="mb-lg-3"> <input type="checkbox" id="37" name="western"  value="37" onclick="genre(37)" />
                         <label for="western">Western</label>
                     </dd>
                 </dl>
+            </div>
             </div>
         </article>
 
@@ -122,7 +125,7 @@
        
  <!-- PARTIE JAVASCRIPT INNERHTML  -->
 
-            <div id="modo">
+            <div class="col-10" id="modo">
 
             </div>
 
@@ -132,9 +135,17 @@
 
 <!-- PARTIE FOOTER -->
 
-    <footer class="">
-        <p>Site réalisé par David.J - afpa 2023</p>
-    </footer>
+<footer>
+    <navbar>
+
+        <button id="premier" onclick="premier()">Alpha</button>
+        <button id="nbrMU" onclick="nbrP()">Page précédente</button>
+        <button id="nbr" >1</button>
+        <button id="nbrPU" onclick="nbrS()" >Page suivante</P></button>
+        <button id="dernier" onclick="dernier()">Omega</button>
+   </navbar>
+    <p>Site réalisé par David.J - afpa 2023</p>
+</footer>
 
 
 
