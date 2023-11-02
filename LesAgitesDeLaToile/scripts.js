@@ -13,7 +13,7 @@ premier();
 function search() {
   let input = document.getElementById('searchbar').value;
   input = input.toLowerCase();
-  let x = document.getElementsByClassName('btn btn-danger');
+  let x = document.getElementsByClassName('btn btn-warning');
 
   for (j = 0; j < x.length; j++) {
     if (!data.results[j].title.toLowerCase().includes(input)) {
@@ -27,7 +27,7 @@ function search() {
 
 function genre(idGenre) {
   const checkBox = document.getElementById(idGenre);
-  const x = document.getElementsByClassName('btn btn-danger');
+  const x = document.getElementsByClassName('btn btn-warning');
 
   if (checkBox.checked) {
     tabGenre.push(idGenre);
@@ -158,9 +158,9 @@ function fetchFilm(page){
                             <hr >
                           </div>
 
-                            
+                          <div class="BA d-flex justify-content-center">
                             <iframe id="BandeAn" class="mb-4" src="https://www.youtube.com/embed/${videoKey}" frameborder="0" allowfullscreen></iframe>
-                            
+                            </div>
                         
                             
                             

@@ -135,22 +135,18 @@ footer p {
 }
 
 
-#tags {
-    margin:0;
-    display: flex;
-    justify-content: center;
+/* BOUTONS BAS */
+
+#nbrMU, #nbrPU {
+    
 }
 
 
- .tag{
-     color: rgb(10, 10, 10);
-    padding:10px 20px;
-    background-color: #FFCA2C;
-    border-radius: 10px;
-    margin-right: 10px;
-    margin-bottom: 40px;
-   display:flex;
-}
+
+
+
+
+
 
 
 
@@ -190,17 +186,6 @@ footer p {
     width: 460px;
     height: 315px;
 }
-}
-
-@media screen and (max-width: 767px) {
-
-    #BandeAn {
-        /* width:370px;
-    height: 315px; */
-   
-    }
-
-
 }
 
 
