@@ -135,20 +135,21 @@ footer p {
 }
 
 
-/* BOUTONS BAS */
-
-#nbrMU, #nbrPU {
-    
+.barre-genre {
+    font-family: 'Inconsolata', monospace;
+    font-size: small;
 }
 
+ #side-genre{
+display:flex;
+flex-direction: column;
+ }
 
 
-
-
-
-
-
-
+#SGenre {
+display: flex;
+flex-direction: row;
+}
 
 
 
